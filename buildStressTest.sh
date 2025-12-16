@@ -97,7 +97,7 @@ echo ""
 echo "Next steps:"
 echo "1. Shutdown this VM"
 echo "2. In vCenter: Edit VM settings to 24 vCPU / 240GB RAM"
-echo "3. Clone this VM twice (3 total VMs, one per host)"
+echo "3. Clone this VM for as many hosts as you have in your cluser (assuming DRS is enabled)
 echo "4. Power on all VMs"
 echo "5. SSH to each VM and run: sudo /root/stress-all.sh"
 echo ""
